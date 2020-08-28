@@ -1,0 +1,26 @@
+p {
+  text-size: 30px;
+  color:black;
+  font-family: arial;
+}
+
+div{
+  background-color: goldenrod;
+  padding: 20px;
+}
+
+hr{
+  height: 10px;
+  background-color: black;
+  margin:5px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+Footer{
+  text-align: center;
+  background-color:gray;
+  padding: 7px;
+}
