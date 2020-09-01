@@ -4,15 +4,27 @@ p {
   font-family: arial;
 }
 
+main{
+  background-color: gold;
+}
+
 div{
   background-color: goldenrod;
   padding: 20px;
 }
-
+/* making the horizontal borders bolder will help divide the page into coherent sections*/
 hr{
   height: 10px;
   background-color: black;
   margin:5px;
+}
+
+/*centering my image on the page*/
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 h1, h2 {
@@ -24,3 +36,14 @@ Footer{
   background-color:gray;
   padding: 7px;
 }
+/*adding emphasis to my intrests and ways to contact me*/
+article {
+  background-color: gray;
+  padding: 5px;
+}
+
+/* adding Link,Visited,Hover, and Active qualities to my links with pseudo classes*/
+a:link {color: blue;}
+a:visited {color: purple;}
+a:hover {color: green;}
+a:active {color: black;}
