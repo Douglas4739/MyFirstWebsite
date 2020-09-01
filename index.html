@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <!-- setting the language to english-->
+  <html lang = 'en'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="https://cdnjs.cooudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    rel="stylesheet"
-    type="text.css"
-    />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <script src="script.js"></script>
   </body>
-
+<!-- Structure for the 'Gretting' section -->
+<main>
   <div>
   <h1>Welcome to my first website! </h1>
-    <img src="photos/douglasede.jpg" alt="photo of Douglas Ede"/>
+    <img src="photos/douglasede.jpg" width="300" height="300" alt="photo of Douglas Ede" class="center"/>
  <h2>Hello! My name is Douglas Ede.</h2>
  <p>I'm a new software engineer that lives in Las Vegas, NV.</p>
  <h3>My hobbies include:</h3>
+ <article>
  <ul>
    <li>video games</li>
    <li>reading</li>
    <li>playing with my dog</li>
  </ul>
- <p>Feel free to take a look around and let me know what you <a href="mailto:briancarter340@gmail.com">think</a>!</p>
+ </article>
+ <p>Feel free to take a look around and let me know what you
+   <!-- Including an email link as part of the paragraph--> <a href="mailto:briancarter340@gmail.com">think</a>!</p>
   </div>
 
   <hr>
 
+<!--Setting up the structure for the 'About Me' section-->
   <div>
     <h2>About me</h2>
     <p>After graduating highschool, I enlisted into the Army where I learned the value of service and duty. With technology advancing at breakneck speeds, I feel as coding is one of the best ways to serve my community and humanity at large. And as I grow more competent in my craft, I look forward to deploying my skills to help better humanity.</p>
@@ -37,16 +40,20 @@
 
   <hr>
 
+<!-- setting up the structure for the 'Contact Me' section-->
 <div>
   <h2>Contact Me</h2>
   <p>I'm looking forward to any feedback you may have. Proposals for colaberations are most welcome, as well!</p>
-  <p>Ways to contact me:</p>
-  <ul>
+  <h3>Ways to contact me:</h3>
+  <article>
+  <ol>
     <li>email: <a href="mailto:briancarter340@gmail.com"> DouglasEde@gmail.com</a></li>
     <li>phone: (470)-733-0338</li>
-    <li>Facebook: <a href="https://www.facebook.com/douglas.ede.7"> Douglas Ede</li>
-  </ul>
+    <li>Facebook: <a href="https://www.facebook.com/douglas.ede.7"> Douglas Ede</a></li>
+    <li>GitHub: <a href="https://github.com/Douglas4739"> Douglas Ede</a></li>
+  </ol>
+  </article>
 </div>
-
+</main>
 <footer><p>@LasVegasPro</p></footer>
 </html>
